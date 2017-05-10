@@ -75,23 +75,5 @@ mMFRecyclerView.reload();
         });
 
 ```
-
-```Java
-
-        relalayout.setObj(item.bacground);
-        relalayout.isPalette=true;   //是否需要执行颜色提取
-        relalayout.setOnImageLoaded(new MImageView.OnImageLoaded() {
-            @Override
-            public void onImageLoaded(Object obj, Drawable drawable, MBitmap mBitmap, int size, int length) {
-                overlayout.setBackgroundColor(mBitmap.muted & 0xccffffff);  //设置图片覆盖层，减缓视觉冲击
- 
-                if(Simple.this.card.getAdapter().params.get("size")==null && posion==0){
-                    Frame.HANDLES.sentAll("ActMain", 0, aitem);  //抛出有actmain处理
-                }
-            }
-        });
-
-```
-
 - 如果项目中有任何问题请邮箱联系我 youyexianhe@126.com
 
