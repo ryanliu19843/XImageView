@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+     <string name="id_text">com.example.autotest.item.Text</string>
+     <string name="id_simple">com.example.autotest.item.Simple</string>
+</resources>
+

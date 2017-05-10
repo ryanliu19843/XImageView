@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/j90dp">
+     <com.mdx.framework.widget.MImageView android:id="@+id/relalayout" android:layout_width="match_parent" android:layout_height="@dimen/j90dp" />
+     <View android:id="@+id/overlayout" android:layout_width="match_parent" android:layout_height="@dimen/j90dp" />
+     <com.mdx.framework.widget.MImageView android:id="@+id/imageView" android:layout_width="@dimen/j35dp" android:layout_height="@dimen/j35dp" android:layout_centerVertical="true" android:layout_marginLeft="@dimen/j10dp" android:src="@mipmap/tylt_ic_youdoushi_n" />
+     <com.mdx.framework.widget.MImageView android:layout_width="@dimen/j10dp" android:layout_height="@dimen/j9dp" android:layout_centerVertical="true" android:layout_marginLeft="@dimen/j55dp" android:src="@mipmap/tylt_ic_xiegang_n" />
+     <TextView android:id="@+id/txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginLeft="@dimen/j75dp" android:textColor="#ffffff" android:textSize="14sp" />
+     <RelativeLayout android:layout_width="@dimen/j70dp" android:layout_height="@dimen/j50dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginRight="@dimen/j30dp">
+          <com.mdx.framework.widget.MImageView android:id="@+id/icon1" android:layout_width="@dimen/j15dp" android:layout_height="@dimen/j15dp" android:src="@mipmap/tylt_ic_redu_n" />
+          <TextView android:id="@+id/txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/j25dp" android:text="sssss" android:textColor="#ffffff" android:textSize="15sp" />
+          <com.mdx.framework.widget.MImageView android:id="@+id/icon2" android:layout_width="@dimen/j15dp" android:layout_height="@dimen/j15dp" android:layout_alignParentBottom="true" android:src="@mipmap/tylt_ic_tiezi_n" />
+          <TextView android:id="@+id/txt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginLeft="@dimen/j25dp" android:text="sssss" android:textColor="#ffffff" android:textSize="15sp" />
+     </RelativeLayout>
+</RelativeLayout>
+

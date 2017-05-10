@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors
+     defaultError=""
+     judgeType="0"
+     errorPackage="package">
+     <!--
+     	judgetype: 校验方式 0 只校验 id  1只校验name 2 校验id或name  3校验id和name
+     	id : 错误id,即错误编号
+     	name: 错误内容
+     	method: 接口id
+     	type: 错误类型  个位 (0 为错误  1为警告)  10位(0为显示 1为不显示)  100位(0为终止传递son,1为继续传递son)
+     	classname: 错误显示的类
+      -->
+	 <msg id="1" name="10012"  type="0" method="" className="classname" title="title">密码格式不正确</msg>
+
+	 <msg id="1" name="10012"  type="0" method="L01" className="">密码格式不正确</msg>
+
+	 <msg id="1003" name="登录校验失败"  className="com.udows.cyph.dialog.NoLoginError">您的登录已失效</msg>
+	 <msg id="98">网络连接错误</msg>
+	 <msg id="9096">[error1]</msg>
+	 <msg id="9097">[error2]</msg>
+</errors>

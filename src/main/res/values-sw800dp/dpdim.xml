@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+     <dimen name="j50dp">125.0dp</dimen>
+     <dimen name="j5dp">12.5dp</dimen>
+     <dimen name="j90dp">225.0dp</dimen>
+     <dimen name="j35dp">87.5dp</dimen>
+     <dimen name="j10dp">25.0dp</dimen>
+     <dimen name="j9dp">22.5dp</dimen>
+     <dimen name="j55dp">137.5dp</dimen>
+     <dimen name="j75dp">187.5dp</dimen>
+     <dimen name="j70dp">175.0dp</dimen>
+     <dimen name="j30dp">75.0dp</dimen>
+     <dimen name="j15dp">37.5dp</dimen>
+     <dimen name="j25dp">62.5dp</dimen>
+     <dimen name="j40dp">100.0dp</dimen>
+     <dimen name="activity_horizontal_margin">40.0dp</dimen>
+     <dimen name="activity_vertical_margin">40.0dp</dimen>
+     <dimen name="fab_margin">40.0dp</dimen>
+</resources>
+

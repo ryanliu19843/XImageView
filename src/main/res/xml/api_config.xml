@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Apis>
+  <Api Package="com.udows.canyin.proto" Name="canyin"
+      ApiUrl="/mobile?methodno=">
+    <!--登录(deviceId@queue)-->
+    <Url name="QueueLogin" type="21" errorType="0" cacheTime="1" className=".MQueueAccount">QueueLogin</Url>
+    <!--设置排队模式-->
+    <Url name="QueueSetMode" type="21" errorType="0" cacheTime="1" className="com.udows.common.proto.MRet">QueueSetMode</Url>
+    <!--预定列表-->
+    <Url name="QueueYdList" type="21" errorType="0" cacheTime="1" className=".MQueueYdList">QueueYdList</Url>
+    <!--排队信息-->
+    <Url name="QueueInfo" type="121" errorType="0" cacheTime="1" className=".MQueueInfo">QueueInfo</Url>
+    <!--添加排队-->
+    <Url name="QueueAdd" type="21" errorType="0" cacheTime="1" className=".MQueueNews">QueueAdd</Url>
+    <!--排队就位-->
+    <Url name="QueueSuccess" type="21" errorType="0" cacheTime="1" className=".MQueueInfo">QueueSuccess</Url>
+    <!--排队过号-->
+    <Url name="QueueNext" type="21" errorType="0" cacheTime="1" className=".MQueueInfo">QueueNext</Url>
+  </Api>
+  <Api Package="com.udows.common.proto" Name="canyin"
+      ApiUrl="/mobile?methodno=">
+    <!--上传文件(需要登录)-->
+    <Url name="MUploadFile" type="21" errorType="0" cacheTime="1" className=".MRet">MUploadFile</Url>
+    <!--用户反馈-->
+    <Url name="MFeedback" type="21" errorType="0" cacheTime="1" className=".MRet">MFeedback</Url>
+    <!--获取系统常量-->
+    <Url name="MSysParams" type="21" errorType="0" cacheTime="1" className=".MSysParams">MSysParams</Url>
+    <!--获取单个系统常量-->
+    <Url name="MSysParamByCode" type="21" errorType="0" cacheTime="1" className=".MRet">MSysParamByCode</Url>
+  </Api>
+</Apis>

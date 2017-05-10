@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+     <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="48dip" android:background="@color/colorPrimary" android:gravity="center" android:text="论坛" android:textSize="20sp" />
+     <com.mdx.framework.widget.pagerecycleview.MFRecyclerView android:id="@+id/recyclerview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" />
+     <LinearLayout android:layout_width="match_parent" android:layout_height="50dip">
+          <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+               <com.mdx.framework.widget.MImageView android:id="@+id/icon1" android:layout_width="25dip" android:layout_height="22dip" android:src="@mipmap/tylt_bt_shouye_n" />
+               <TextView android:id="@+id/txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dip" android:text="首页" android:textSize="12sp" />
+          </LinearLayout>
+          <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+               <com.mdx.framework.widget.MImageView android:id="@+id/icon2" android:layout_width="25dip" android:layout_height="22dip" android:src="@mipmap/tylt_bt_feilei_n" />
+               <TextView android:id="@+id/txt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip" android:text="分类" android:textSize="12sp" />
+          </LinearLayout>
+          <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+               <com.mdx.framework.widget.MImageView android:id="@+id/icon4" android:layout_width="25dip" android:layout_height="22dip" android:src="@mipmap/tylt_bt_luntan_n" />
+               <TextView android:id="@+id/txt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dip" android:text="论坛" android:textSize="12sp" />
+          </LinearLayout>
+          <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+               <com.mdx.framework.widget.MImageView android:id="@+id/icon3" android:layout_width="25dip" android:layout_height="22dip" android:src="@mipmap/tylt_bt_wo_n" />
+               <TextView android:id="@+id/txt4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dip" android:text="我的" android:textSize="12sp" />
+          </LinearLayout>
+     </LinearLayout>
+</LinearLayout>
+
