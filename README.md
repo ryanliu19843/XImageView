@@ -23,30 +23,6 @@ mMFRecyclerView.reload();
 ### 实现数据整理类
 
 ```Java
-public class DfSimple extends DataFormat{
-    int size = 1;
-
-	Simple.SimpleSet simpleSets[] = new Simple.SimpleSet[]{
-			new Simple.SimpleSet("ASSETS:tylt_bg_youdoushi_n.png", "ASSETS:tylt_ic_youdoushi_n.png", "魔兽世界1", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_moshou_n.png", "ASSETS:tylt_ic_moshou_n.png", "魔兽世界2", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_zhanzheng_n.png", "ASSETS:tylt_ic_zhenzheng_n.png", "魔兽世界3", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_yingxiong_n.png", "ASSETS:tylt_ic_yingxiong_n.png", "魔兽世界4", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_yongheng_n.png", "ASSETS:tylt_ic_yongheng_n.png", "魔兽世界5", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_guaiwu_n.png", "ASSETS:tylt_ic_guaiwu_n.png", "魔兽世界6", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_youdoushi_n.png", "ASSETS:tylt_ic_youdoushi_n.png", "魔兽世界7", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_moshou_n.png", "ASSETS:tylt_ic_moshou_n.png", "魔兽世界8", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_zhanzheng_n.png", "ASSETS:tylt_ic_zhenzheng_n.png", "魔兽世界9", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_yingxiong_n.png", "ASSETS:tylt_ic_yingxiong_n.png", "魔兽世界10", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_yongheng_n.png", "ASSETS:tylt_ic_yongheng_n.png", "魔兽世界11", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_guaiwu_n.png", "ASSETS:tylt_ic_guaiwu_n.png", "魔兽世界12", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_youdoushi_n.png", "ASSETS:tylt_ic_youdoushi_n.png", "魔兽世界13", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_moshou_n.png", "ASSETS:tylt_ic_moshou_n.png", "魔兽世界14", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_zhanzheng_n.png", "ASSETS:tylt_ic_zhenzheng_n.png", "魔兽世界15", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_yingxiong_n.png", "ASSETS:tylt_ic_yingxiong_n.png", "魔兽世界16", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_yongheng_n.png", "ASSETS:tylt_ic_yongheng_n.png", "魔兽世界17", "110", "220"),
-			new Simple.SimpleSet("ASSETS:tylt_bg_guaiwu_n.png", "ASSETS:tylt_ic_guaiwu_n.png", "魔兽世界18", "110", "220"),
-	};
-
 
 	@Override
 	public boolean hasNext() {  //判断是否有下一页
@@ -77,7 +53,7 @@ public class DfSimple extends DataFormat{
 	public void reload() {
 
 	}
-}
+
 				
 ```
 
