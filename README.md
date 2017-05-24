@@ -9,11 +9,10 @@
 ## 实现效果
 
 ![图片](https://github.com/ryanliu19843/XImageView/blob/master/20170510149438820559128dedafd29.gif)
-
-
-
+![tup](https://github.com/ryanliu19843/pagerecycleview/blob/master/ezgif-1-9af0e595b2.gif)
 
 ## 实现代码
+
 ### 设置加载接口
 
 ```Java
